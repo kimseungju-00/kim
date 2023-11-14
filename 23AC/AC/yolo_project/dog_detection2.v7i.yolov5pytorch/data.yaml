@@ -1,0 +1,13 @@
+train: D:/yolo_project/dog_detection2.v7i.yolov5pytorch/train/images
+val: D:/yolo_project/dog_detection2.v7i.yolov5pytorch/valid/images
+test: D:/yolo_project/dog_detection2.v7i.yolov5pytorch/test/images
+
+nc: 3
+names: ['Dog', 'Leashed_Dog', 'Unleashed_Dog']
+
+roboflow:
+  workspace: project-9zi2b
+  project: dog-detection2-vh8vc
+  version: 7
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/project-9zi2b/dog-detection2-vh8vc/dataset/7
